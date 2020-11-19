@@ -23,7 +23,6 @@
  * Add a link tag with provided stylesheet URL in <head>
  * @param {string} stylesheetUrl 
  */
-var document = window.document;
 function injectStylesheetForTheme(stylesheetUrl) {
     let link = document.createElement('link');
     link.href = stylesheetUrl;
